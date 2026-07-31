@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Alexi — Professional content writer crafting blog posts, web copy, SEO content, and social media copy that converts readers into customers." />
+  <meta name="theme-color" content="#1a1f36" />
+  <title>Alexi — Professional Content Writer</title>
+
+  <!-- Preconnect for fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;0,9..144,900;1,9..144,400&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- ===== Skip link for accessibility ===== -->
+  <a href="#hero" class="skip-link">Skip to content</a>
+
+  <!-- ===== Header / Navigation ===== -->
+  <header class="site-header" id="top">
+    <nav class="nav" aria-label="Primary navigation">
+      <a href="#hero" class="nav__brand" aria-label="Alexi home">
+        <span class="nav__brand-mark">A</span>
+        <span class="nav__brand-text">Alexi</span>
+      </a>
+
+      <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu" aria-label="Open menu">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+
+      <ul class="nav__menu" id="navMenu">
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#testimonials" class="nav__link">Testimonials</a></li>
+        <li><a href="#contact" class="nav__link nav__link--cta">Get a Quote</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== Hero Section ===== -->
+    <section class="hero" id="hero">
+      <div class="hero__bg" aria-hidden="true">
+        <span class="hero__blob hero__blob--1"></span>
+        <span class="hero__blob hero__blob--2"></span>
+        <span class="hero__grain"></span>
+      </div>
+
+      <div class="hero__inner container">
+        <p class="hero__eyebrow">Words that work as hard as you do</p>
+        <h1 class="hero__title">
+          Alexi — <em>Professional</em><br />Content Writer
+        </h1>
+        <p class="hero__subtitle">
+          I craft blog posts, web copy, and SEO content that blend creativity with strategy —
+          turning casual readers into loyal customers.
+        </p>
+        <div class="hero__actions">
+          <a href="#contact" class="btn btn--primary">Hire Me</a>
+          <a href="#services" class="btn btn--ghost">View Services</a>
+        </div>
+
+        <dl class="hero__stats">
+          <div class="hero__stat">
+            <dt>500+</dt><dd>Articles published</dd>
+          </div>
+          <div class="hero__stat">
+            <dt>120+</dt><dd>Happy clients</dd>
+          </div>
+          <div class="hero__stat">
+            <dt>8 yrs</dt><dd>Writing experience</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- ===== About Section ===== -->
+    <section class="about" id="about">
+      <div class="container about__inner">
+        <div class="about__text">
+          <p class="section__eyebrow">About</p>
+          <h2 class="section__title">A writer who treats your brand like their own</h2>
+          <p class="about__bio">
+            I'm Alexi — a content writer with eight years of experience helping startups,
+            agencies, and founders find their voice. From long-form blog posts to punchy
+            landing pages, I write content that ranks, reads beautifully, and drives real
+            results.
+          </p>
+          <p class="about__bio">
+            My work has appeared in industry-leading publications and helped brands grow
+            organic traffic by up to <strong>3&times;</strong>. I don't just fill pages —
+            I build content engines.
+          </p>
+          <ul class="about__skills">
+            <li>Blog &amp; Article Writing</li>
+            <li>Website Copywriting</li>
+            <li>SEO Strategy</li>
+            <li>Brand Voice Development</li>
+            <li>Email Sequences</li>
+            <li>Social Media Copy</li>
+          </ul>
+        </div>
+        <aside class="about__card" aria-label="Alexi's writing desk">
+          <div class="about__card-glow"></div>
+          <svg class="about__card-icon" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+            <path d="M8 52h48M14 44V20a2 2 0 0 1 2-2h24a2 2 0 0 1 2 2v24M42 28l8-8 4 4-8 8-4 0v-4z" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            <path d="M20 26h12M20 32h12M20 38h8" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+          </svg>
+          <p class="about__card-quote">"Good writing is clear thinking made visible."</p>
+          <p class="about__card-author">— Alexi's writing philosophy</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ===== Services Section ===== -->
+    <section class="services" id="services">
+      <div class="container">
+        <header class="section__head">
+          <p class="section__eyebrow">Services</p>
+          <h2 class="section__title">Content that moves the needle</h2>
+          <p class="section__lead">Pick a service or combine them — every project is tailored to your goals, audience, and tone of voice.</p>
+        </header>
+
+        <div class="services__grid">
+          <!-- Service 1 -->
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none">
+                <rect x="8" y="6" width="26" height="36" rx="3" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M14 16h14M14 22h14M14 28h10" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M34 14l6 6-14 14h-6v-6l14-14z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Blog Writing</h3>
+            <p class="service-card__desc">Engaging, well-researched articles (800–2,500 words) that establish authority and keep readers coming back.</p>
+          </article>
+
+          <!-- Service 2 -->
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none">
+                <rect x="6" y="10" width="36" height="26" rx="3" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M6 18h36M14 30h8M14 24h12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <circle cx="36" cy="28" r="3" stroke="currentColor" stroke-width="2.5"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Web Copy</h3>
+            <p class="service-card__desc">Homepages, landing pages, and about sections that communicate value and convert visitors into customers.</p>
+          </article>
+
+          <!-- Service 3 -->
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none">
+                <circle cx="22" cy="22" r="14" stroke="currentColor" stroke-width="2.5"/>
+                <path d="M33 33l8 8M16 22h12M22 16v12" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+                <path d="M18 28l-2 4M26 28l2 4" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">SEO Content</h3>
+            <p class="service-card__desc">Keyword-driven content that climbs search rankings without sounding like a robot wrote it.</p>
+          </article>
+
+          <!-- Service 4 -->
+          <article class="service-card">
+            <div class="service-card__icon" aria-hidden="true">
+              <svg viewBox="0 0 48 48" fill="none">
+                <path d="M8 14h32a2 2 0 0 1 2 2v18a2 2 0 0 1-2 2H22l-8 6v-6H8a2 2 0 0 1-2-2V16a2 2 0 0 1 2-2z" stroke="currentColor" stroke-width="2.5" stroke-linejoin="round"/>
+                <path d="M14 22h20M14 28h14" stroke="currentColor" stroke-width="2.5" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <h3 class="service-card__title">Social Media Copy</h3>
+            <p class="service-card__desc">Scroll-stopping captions, threads, and ad copy that spark engagement and grow your following.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Testimonials Section ===== -->
+    <section class="testimonials" id="testimonials">
+      <div class="container">
+        <header class="section__head">
+          <p class="section__eyebrow">Testimonials</p>
+          <h2 class="section__title">What clients say</h2>
+        </header>
+
+        <div class="testimonials__grid">
+          <figure class="testimonial">
+            <div class="testimonial__stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote class="testimonial__quote">
+              "Alexi's writing transformed our blog traffic. We went from 2K to 18K monthly
+              visitors in six months — and the readers actually stay."
+            </blockquote>
+            <figcaption class="testimonial__author">
+              <span class="testimonial__avatar" aria-hidden="true">SM</span>
+              <span>
+                <strong>Sarah Mendez</strong>
+                <small>Marketing Director, BrightLab</small>
+              </span>
+            </figcaption>
+          </figure>
+
+          <figure class="testimonial">
+            <div class="testimonial__stars" aria-label="5 out of 5 stars">★★★★★</div>
+            <blockquote class="testimonial__quote">
+              "Every piece Alexi writes feels like it was pulled straight from our brand book.
+              Fast, reliable, and genuinely talented. Our go-to writer."
+            </blockquote>
+            <figcaption class="testimonial__author">
+              <span class="testimonial__avatar" aria-hidden="true">DK</span>
+              <span>
+                <strong>David Kim</strong>
+                <small>Founder, Nimbus SaaS</small>
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Contact Section ===== -->
+    <section class="contact" id="contact">
+      <div class="container contact__inner">
+        <div class="contact__intro">
+          <p class="section__eyebrow">Contact</p>
+          <h2 class="section__title">Let's write something great together</h2>
+          <p class="contact__lead">
+            Tell me about your project and I'll get back to you within 24 hours with ideas,
+            a timeline, and a quote.
+          </p>
+          <a href="mailto:hello@alexiwrites.com" class="contact__email">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true" width="20" height="20">
+              <rect x="3" y="5" width="18" height="14" rx="2" stroke="currentColor" stroke-width="2"/>
+              <path d="M3 7l9 6 9-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+            hello@alexiwrites.com
+          </a>
+        </div>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" autocomplete="name" required
+                   aria-required="true" placeholder="Your name" />
+            <span class="form-error" id="nameError" role="alert"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" autocomplete="email" required
+                   aria-required="true" placeholder="you@example.com" />
+            <span class="form-error" id="emailError" role="alert"></span>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required
+                      aria-required="true" placeholder="Tell me about your project..."></textarea>
+            <span class="form-error" id="messageError" role="alert"></span>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--block">Send Message</button>
+
+          <p class="form-success" id="formSuccess" role="status" hidden>
+            ✓ Thanks! Your message has been received. I'll reply within 24 hours.
+          </p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div class="site-footer__brand">
+        <span class="nav__brand-mark">A</span>
+        <div>
+          <strong>Alexi</strong>
+          <p>Professional content writer for brands that mean business.</p>
+        </div>
+      </div>
+
+      <nav class="site-footer__social" aria-label="Social media">
+        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="social-link">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22" aria-hidden="true">
+            <path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.13 1.45-2.13 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/>
+          </svg>
+        </a>
+        <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter / X" class="social-link">
+          <svg viewBox="0 0 24 24" fill="currentColor" width="22" height="22" aria-hidden="true">
+            <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24h-6.66l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231 5.45-6.231zm-1.161 17.52h1.833L7.084 4.126H5.117l11.966 15.644z"/>
+          </svg>
+        </a>
+        <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22" aria-hidden="true">
+            <rect x="2" y="2" width="20" height="20" rx="5"/>
+            <circle cx="12" cy="12" r="4"/>
+            <circle cx="17.5" cy="6.5" r="1.2" fill="currentColor" stroke="none"/>
+          </svg>
+        </a>
+        <a href="mailto:hello@alexiwrites.com" aria-label="Email" class="social-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="22" height="22" aria-hidden="true">
+            <rect x="2" y="4" width="20" height="16" rx="2"/>
+            <path d="M2 7l10 7 10-7" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+      </nav>
+    </div>
+
+    <div class="site-footer__bottom container">
+      <p>&copy; <span id="year">2024</span> Alexi Content Writing. All rights reserved.</p>
+      <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="18" height="18" aria-hidden="true">
+          <path d="M12 19V5M5 12l7-7 7 7" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+        Back to top
+      </button>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
